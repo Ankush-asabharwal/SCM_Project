@@ -1,13 +1,12 @@
 #include<iostream>
 using  namespace std;
-int main()
-{
+int main(){
     int i, j,temp,pass=0;
     int a[10]= {10,2,0,14,43,25,18,1,5,45};
     cout <<"Input list ...\n";
     for(i=0 ; i< 10 ; i++) 
     {
-         cout<<a[i]<<"\t";
+         cout<<a[i];
     }
     cout<<endl;
     for(i=0 ; i<10 ; i++)
